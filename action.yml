@@ -4,7 +4,6 @@ inputs:
   replacements:
     description: 'Json representing what to replace in what files'
     required: true
-    default '{}'
 runs:
   using: 'node12'
   main: 'index.js'
