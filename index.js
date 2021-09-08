@@ -3,7 +3,9 @@ const github = require('@actions/github');
 const fs = require("fs");
 const path = require("path");
 const replacements = core.getInput("replacements");
-                      
+
+console.log(replacements);
+
 try {
     const inputReplacements = JSON.parse(replacements)
     inputReplacements.forEach(function(x) {
