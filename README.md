@@ -1,9 +1,7 @@
 # gha-find-replace
 Github action to find and replace strings in files.
 
-Finds and replaces strings in files.
-
-You specify a json array of `file`, `find` and `replacement`
+You specify a json array of `file`, `find` and `replacement` tuples.
 
 Usage:
 ```
